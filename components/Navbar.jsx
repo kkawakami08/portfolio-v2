@@ -24,13 +24,13 @@ const Navbar = () => {
         <div className="hidden lg:grid lg:grid-cols-5 lg:justify-items-center  items-center justify-around w-full ">
           <Link
             href={"/#about"}
-            className="hover:text-slate-300 transition-colors"
+            className="hover:text-brand-yellow transition-colors"
           >
             About
           </Link>
           <Link
             href={"/#contact"}
-            className="hover:text-slate-300 transition-colors"
+            className="hover:text-brand-yellow transition-colors"
           >
             Contact
           </Link>
@@ -44,13 +44,13 @@ const Navbar = () => {
           <a
             href="/resume.pdf"
             target="_blank"
-            className="hover:text-slate-300 transition-colors"
+            className="hover:text-brand-yellow transition-colors"
           >
             Resume
           </a>
           <Link
             href="/projects"
-            className="hover:text-slate-300 transition-colors"
+            className="hover:text-brand-yellow transition-colors"
           >
             Projects
           </Link>
