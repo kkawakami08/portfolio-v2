@@ -9,11 +9,11 @@ const ProjectSection = ({ id, project }) => {
 
   return (
     <div
-      className="bg-brand-light-green text-brand-very-dark-green rounded-lg   "
+      className="bg-brand-light-green text-brand-very-dark-green rounded-lg  shadow-[0px_4px_0px_0px_#1f2b2d] "
       id={id}
     >
       <div
-        className={`text-3xl font-semibold font-serif tracking-wide  gap-5 flex rounded-lg hover:bg-brand-green transition group cursor-pointer`}
+        className={`text-3xl font-semibold font-serif tracking-wide  gap-5 flex rounded-lg hover:bg-brand-green transition group cursor-pointer shadow-[0px_4px_0px_0px_#1f2b2d]`}
         onClick={() => setOpenInfo((prev) => !prev)}
       >
         <div

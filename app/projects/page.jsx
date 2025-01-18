@@ -27,7 +27,7 @@ const ProjectsPage = () => {
             Full Stack Rental Property Site
           </Link>
         </div>
-        <div className="relative lg:mt-5  flex flex-col items-center  bg-no-repeat bg-center rounded-b-3xl overflow-hidden   ">
+        <div className="relative lg:mt-5  flex flex-col items-center  bg-no-repeat bg-center rounded-b-3xl overflow-hidden  animate-fade animate-duration-[2000ms] ">
           <Image
             src={kaoriPoint}
             width="0"

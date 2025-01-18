@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const PhoneProjectCard = ({ project }) => {
   return (
-    <Link href={project.url} className="  ">
-      <div className="grid grid-cols-2 relative overflow-hidden p-5 pb-3 rounded-3xl bg-[#ffc44a] gap-10  shadow-[0px_4px_0px_0px_#dd6302] min-h-64 max-w-md transition ease-in-out   hover:-translate-y-1 hover:scale-105  duration-300 ">
+    <Link href={project.url} className="group  ">
+      <div className="grid grid-cols-2 relative overflow-hidden p-5 pb-3 rounded-3xl bg-[#ffc44a] gap-10  shadow-[0px_4px_0px_0px_#dd6302] min-h-64 max-w-md transition ease-in-out   group-hover:-translate-y-1 group-hover:scale-105  duration-300 ">
         <Image
           src={project.image}
           width="0"
@@ -28,7 +28,7 @@ const PhoneProjectCard = ({ project }) => {
           {project.skills()}
         </div>{" "}
       </div>
-      <p className="text-white text-center text-2xl font-thin py-5 tracking-wide hover:text-brand-yellow transition-colors">
+      <p className="text-white text-center text-2xl font-thin py-5 tracking-wide group-hover:text-brand-yellow transition-colors">
         {project.title}
       </p>
     </Link>
