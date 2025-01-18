@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import kaoriPoint from "@/assets/images/kaori-project.png";
-import kaoriPointSmall from "@/assets/images/kaori-project-small.png";
 import Link from "next/link";
 import ProjectSection from "@/components/ProjectSection";
 import { phoneProjects, laptopProjects } from "@/constants/projectData";
