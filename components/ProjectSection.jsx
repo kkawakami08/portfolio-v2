@@ -13,7 +13,7 @@ const ProjectSection = ({ id, project }) => {
       id={id}
     >
       <div
-        className={`text-3xl font-semibold font-serif tracking-wide  gap-5 flex rounded-lg hover:bg-brand-green transition group `}
+        className={`text-3xl font-semibold font-serif tracking-wide  gap-5 flex rounded-lg hover:bg-brand-green transition group cursor-pointer`}
         onClick={() => setOpenInfo((prev) => !prev)}
       >
         <div
