@@ -34,15 +34,7 @@ const ProjectsPage = () => {
             width="0"
             height="0"
             sizes="100vw"
-            className="hidden md:block z-20 md:max-w-lg "
-            alt="Kaori's Picture"
-          />
-          <Image
-            src={kaoriPointSmall}
-            width="0"
-            height="0"
-            sizes="100vw"
-            className="md:hidden z-20 "
+            className=" z-20 md:max-w-lg "
             alt="Kaori's Picture"
           />
         </div>

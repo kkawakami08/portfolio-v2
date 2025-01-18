@@ -11,17 +11,10 @@ const MainImage = () => {
         width="0"
         height="0"
         sizes="100vw"
-        className="hidden md:block z-20 md:max-w-lg "
+        className=" z-20 md:max-w-lg "
         alt="Kaori's Picture"
       />
-      <Image
-        src={smallMyPic}
-        width="0"
-        height="0"
-        sizes="100vw"
-        className="md:hidden z-20 "
-        alt="Kaori's Picture"
-      />
+
       <div className="absolute bottom-5 z-30 backdrop-blur-2xl text-white flex items-center gap-5 rounded-full text-xl font-light border border-slate-50 p-1">
         <Link
           href="/projects"
