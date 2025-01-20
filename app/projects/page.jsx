@@ -16,13 +16,13 @@ const ProjectsPage = () => {
         <div className="flex flex-col items-center gap-3 py-10 lg:flex-row  lg:justify-center animate-fade-up">
           <Link
             href="#positivus"
-            className="bg-brand-dark-green text-gray-100 text-xl font-semibold tracking-wider px-5 py-2 rounded-lg shadow-[0px_4px_0px_0px_#1f2b2d] "
+            className="bg-brand-dark-green text-gray-100 text-xl font-semibold tracking-wider px-5 py-2 rounded-lg shadow-[0px_4px_0px_0px_#1f2b2d] hover:bg-brand-green transition"
           >
             Modern Landing Page
           </Link>
           <Link
             href="#rental"
-            className="bg-brand-dark-green text-gray-100 text-xl font-semibold tracking-wider px-5 py-2 rounded-lg shadow-[0px_4px_0px_0px_#1f2b2d]  "
+            className="bg-brand-dark-green text-gray-100 text-xl font-semibold tracking-wider px-5 py-2 rounded-lg shadow-[0px_4px_0px_0px_#1f2b2d] hover:bg-brand-green transition "
           >
             Full Stack Rental Property Site
           </Link>
